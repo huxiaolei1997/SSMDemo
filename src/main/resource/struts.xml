@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+
+<struts>
+    <!-- 让spring来管理action -->
+    <constant name="struts.objectFactory" value="spring"></constant>
+
+    <include file="equipment.xml"></include>
+    <!--<constant name="struts.convention.action.suffix" value="Controller"/>-->
+    <!--<constant name="struts.convention.action.mapAllMatches" value="true"/>-->
+    <!--<constant name="struts.convention.default.parent.package" value="rest-default"/>-->
+    <!--&lt;!&ndash; struts后缀配置 &ndash;&gt;-->
+    <!--<constant name="struts.action.extension" value="html"></constant>-->
+</struts>

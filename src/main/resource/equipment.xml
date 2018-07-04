@@ -46,15 +46,24 @@
     <!--<result>/WEB-INF/jsp/update.jsp</result>-->
     <!--</action>-->
     <!--</package>-->
+    <!--<package name="default" namespace="/" extends="struts-default">-->
+        <!--<default-action-ref name="index"></default-action-ref>-->
+        <!--<action name="index">-->
+            <!--<result>/WEB-INF/jsp/error.jsp</result>-->
+        <!--</action>-->
+        <!--<action name="*_*_*" method="{2}" class="com.struts.{3}.{1}Action">-->
+            <!--<result>/WEB-INF/jsp/test.jsp</result>-->
+            <!--<result name="add">/WEB-INF/jsp/{2}.jsp</result>-->
+            <!--<result name="update">/WEB-INF/jsp/{2}.jsp</result>-->
+        <!--</action>-->
+    <!--</package>-->
     <package name="default" namespace="/" extends="struts-default">
-        <default-action-ref name="index"></default-action-ref>
-        <action name="index">
-            <result>/WEB-INF/jsp/error.jsp</result>
-        </action>
-        <action name="*_*_*" method="{2}" class="com.struts.{3}.{1}Action">
-            <result>/WEB-INF/jsp/test.jsp</result>
-            <result name="add">/WEB-INF/jsp/{2}.jsp</result>
-            <result name="update">/WEB-INF/jsp/{2}.jsp</result>
+        <!--<action name="equipment" method="equipmentList" class="equipmentAction">-->
+            <!--<result name="success">/WEB-INF/jsp/equipmentlist.jsp</result>-->
+        <!--</action>-->
+        <action name="*" method="{1}" class="equipmentAction">
+            <result name="equipment_list" type="freemarker">/WEB-INF/ftl/equipmentlist.ftl</result>
+            <result name="update_equipment" type="freemarker">/WEB-INF/ftl/updateequipment.ftl</result>
         </action>
     </package>
 </struts>
