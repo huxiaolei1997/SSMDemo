@@ -11,17 +11,17 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-lg-offset-3">
-                <form role="form">
+                <form role="form" method="post" action="updateEquipmentById">
                     <div class="form-group">
                         <label for="name">设备ID</label>
-                        <input type="text" class="form-control" id="code"
+                        <input type="text" class="form-control" name="equipment.code"
                                value="${equipment.code}" disabled="disabled">
                     </div>
                     <div class="form-group">
                         <label for="name">设备描述</label>
-                        <textarea class="form-control" id="desc">${equipment.desc}</textarea>
+                        <textarea class="form-control" id="desc" name="equipment.desc">${equipment.desc}</textarea>
                     </div>
-                    <input type="hidden" value="${equipment.id}" name="id"/>
+                    <input type="hidden" value="${equipment.id}" name="equipment.id"/>
                     <button type="submit" class="btn btn-default">提交</button>
                 </form>
             </div>

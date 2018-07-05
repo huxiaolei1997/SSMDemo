@@ -30,7 +30,7 @@
                                  <td>${equipment.id}</td>
                                  <td>${equipment.code}</td>
                                  <td>${equipment.desc}</td>
-                                 <td><a class="btn btn-primary" href="javascript:location.href='updateEquipment?equipment_id=${equipment.id}';">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-danger" href="javascript:location.href='deleteEquipmentById?equipment_id=${equipment.id}';">删除</a></td>
+                                 <td><a class="btn btn-primary" href="javascript:location.href='equipment/${equipment.id}/edit';">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-danger" href="javascript:location.href='deleteEquipmentById?equipment_id=${equipment.id}';">删除</a></td>
                              </tr>
                          </#list>
                     </#if>

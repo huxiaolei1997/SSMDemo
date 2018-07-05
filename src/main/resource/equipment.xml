@@ -57,13 +57,24 @@
             <!--<result name="update">/WEB-INF/jsp/{2}.jsp</result>-->
         <!--</action>-->
     <!--</package>-->
-    <package name="default" namespace="/" extends="struts-default">
-        <!--<action name="equipment" method="equipmentList" class="equipmentAction">-->
-            <!--<result name="success">/WEB-INF/jsp/equipmentlist.jsp</result>-->
+    <!--<package name="default" namespace="/" extends="struts-default,json-default">-->
+        <!--&lt;!&ndash;<action name="equipment" method="equipmentList" class="equipmentAction">&ndash;&gt;-->
+            <!--&lt;!&ndash;<result name="success">/WEB-INF/jsp/equipmentlist.jsp</result>&ndash;&gt;-->
+        <!--&lt;!&ndash;</action>&ndash;&gt;-->
+        <!--<action name="*" method="{1}" class="equipmentAction">-->
+            <!--<result name="equipment_list" type="freemarker">/WEB-INF/ftl/equipmentlist.ftl</result>-->
+            <!--<result name="update_equipment" type="freemarker">/WEB-INF/ftl/updateequipment.ftl</result>-->
+            <!--<result name="equipment_update_success" type="redirect">showEquipment</result>-->
+            <!--<result name="equipment_delete_success" type="redirect">showEquipment</result>-->
+            <!--<result name="equipment_delete_batch_success" type="json">-->
+                <!--<param name="status">batch_equipment_id</param>-->
+            <!--</result>-->
         <!--</action>-->
-        <action name="*" method="{1}" class="equipmentAction">
-            <result name="equipment_list" type="freemarker">/WEB-INF/ftl/equipmentlist.ftl</result>
-            <result name="update_equipment" type="freemarker">/WEB-INF/ftl/updateequipment.ftl</result>
-        </action>
-    </package>
+    <!--</package>-->
+
+    <!--<package name="ajax" namespace="/" extends="json-default">-->
+        <!--<action name="delete_equipment_batch" class="com.struts.action.EquipmentAction" method="deleteEquipmentBatch">-->
+            <!---->
+        <!--</action>-->
+    <!--</package>-->
 </struts>

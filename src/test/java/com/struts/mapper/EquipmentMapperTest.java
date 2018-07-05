@@ -13,9 +13,9 @@ public class EquipmentMapperTest {
 
     @Test
     public void getEquipmentList() {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("springconfig/applicationContext.xml");
-        EquipmentMapper equipmentMapper = applicationContext.getBean(EquipmentMapper.class);
-        List<Equipment> equipmentList = equipmentMapper.getEquipmentList();
-        System.out.println(equipmentList.toString());
+        //ApplicationContext applicationContext = new ClassPathXmlApplicationContext("springconfig/applicationContext.xml");
+        //EquipmentMapper equipmentMapper = applicationContext.getBean(EquipmentMapper.class);
+        //List<Equipment> equipmentList = equipmentMapper.getEquipmentList();
+        //System.out.println(equipmentList.toString());
     }
 }

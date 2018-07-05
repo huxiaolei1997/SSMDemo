@@ -8,6 +8,24 @@
     <!-- 让spring来管理action -->
     <constant name="struts.objectFactory" value="spring"></constant>
 
+    <!-- 不拦截静态资源 -->
+    <constant name="struts.action.excludePattern" value="/static/.*?" />
+
+    <!-- 指定 ftl 文件所在的目录地址 -->
+    <constant name="struts.convention.result.path" value="/WEB-INF/ftl/" />
+
+    <!-- 使用struts-default默认的转换器，如果是rest的使用：rest-default，rest需要rest的jar插件 -->
+    <constant name="struts.convention.default.parent.package" value="rest-default"/>
+    
+    <!-- 设置编码方式为UTF-8 -->
+    <constant name="struts.i18n.encoding" value="UTF-8"/>
+
+    <constant name="struts.convention.action.mapAllMatches"
+              value="true"/>
+
+    <!-- 自定义 ftl 文件命名的分隔符 -->
+    <constant name="struts.convention.action.name.separator" value="-" />
+
     <include file="equipment.xml"></include>
     <!--<constant name="struts.convention.action.suffix" value="Controller"/>-->
     <!--<constant name="struts.convention.action.mapAllMatches" value="true"/>-->

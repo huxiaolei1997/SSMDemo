@@ -1,9 +1,10 @@
 package com.struts.action;
 
 import com.opensymphony.xwork2.ActionSupport;
+import com.struts.constant.Constant;
 import com.struts.model.Equipment;
+import com.struts.model.Pager;
 import com.struts.service.EquipmentService;
-import org.apache.struts2.ServletActionContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
@@ -30,8 +31,32 @@ public class EquipmentAction extends ActionSupport{
 
     private Equipment equipment;
 
+    private Pager<Equipment> equipmentPager;
+
     // 设备主键
     private int equipment_id;
+
+    // 页号
+    private Integer page_num;
+
+    // 批量删除的设备id
+    private String batch_equipment_id;
+
+    public String getBatch_equipment_id() {
+        return batch_equipment_id;
+    }
+
+    public void setBatch_equipment_id(String batch_equipment_id) {
+        this.batch_equipment_id = batch_equipment_id;
+    }
+
+    public Integer getPage_num() {
+        return page_num;
+    }
+
+    public void setPage_num(Integer page_num) {
+        this.page_num = page_num;
+    }
 
     public int getEquipment_id() {
         return equipment_id;
@@ -57,9 +82,18 @@ public class EquipmentAction extends ActionSupport{
         this.equipmentList = equipmentList;
     }
 
+    public Pager<Equipment> getEquipmentPager() {
+        return equipmentPager;
+    }
+
+    public void setEquipmentPager(Pager<Equipment> equipmentPager) {
+        this.equipmentPager = equipmentPager;
+    }
+
     public String showEquipment() {
-        equipmentList = equipmentService.getEquipmentList();
-        System.out.println("equipmentList : " + equipmentList.toString());
+        //equipmentList = equipmentService.getEquipmentList(page_num);
+        equipmentPager = equipmentService.getEquipmentList(page_num);
+        System.out.println("equipmentPager : " + equipmentPager.toString() + "page_num : " + page_num);
         return "equipment_list";
     }
 
@@ -68,5 +102,27 @@ public class EquipmentAction extends ActionSupport{
         System.out.println("equipment : " + equipment.toString());
         return "update_equipment";
         //equipment = equipmentService
+    }
+
+    public String updateEquipmentById() {
+        equipmentService.updateEquipmentDesc(equipment);
+        //equipmentList = equipmentService.getEquipmentList(Constant.default_page_num);
+        equipmentPager = equipmentService.getEquipmentList(page_num);
+        System.out.println("update_equipment : " + equipment.toString());
+        return "equipment_update_success";
+    }
+
+    public String deleteEquipmentById() {
+        equipmentService.deleteEquipmentById(equipment_id);
+        equipmentPager = equipmentService.getEquipmentList(page_num);
+        return "equipment_delete_success";
+    }
+
+    public String deleteEquipmentBatch() {
+        System.out.println("batch_equipment_id : " + batch_equipment_id);
+        String[] ids = batch_equipment_id.trim().split(" ");
+        equipmentService.deleteEquipmentByIdBatch(ids);
+        batch_equipment_id = "success";
+        return "equipment_delete_batch_success";
     }
 }
