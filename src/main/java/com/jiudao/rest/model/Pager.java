@@ -1,4 +1,4 @@
-package com.struts.model;
+package com.jiudao.rest.model;
 
 import java.util.List;
 
@@ -8,6 +8,7 @@ import java.util.List;
  * version 1.0
  *
  * @create 2018-07-05 12:10
+ *
  * @copyright huxiaolei1997@gmail.com
  */
 public class Pager<T> {

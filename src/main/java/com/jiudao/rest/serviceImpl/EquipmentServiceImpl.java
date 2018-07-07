@@ -1,10 +1,10 @@
-package com.struts.serviceImpl;
+package com.jiudao.rest.serviceImpl;
 
-import com.struts.constant.Constant;
-import com.struts.mapper.EquipmentMapper;
-import com.struts.model.Equipment;
-import com.struts.model.Pager;
-import com.struts.service.EquipmentService;
+import com.jiudao.rest.constant.Constant;
+import com.jiudao.rest.mapper.EquipmentMapper;
+import com.jiudao.rest.model.Equipment;
+import com.jiudao.rest.model.Pager;
+import com.jiudao.rest.service.EquipmentService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,10 +14,11 @@ import java.util.List;
 
 /**
  * EquipmentServiceImpl
- * <p>
+ *
  * version 1.0
  *
  * @create 2018-07-04 13:19
+ *
  * @copyright huxiaolei1997@gmail.com
  */
 @Service
@@ -109,6 +110,17 @@ public class EquipmentServiceImpl implements EquipmentService {
         List<Equipment> equipmentList = equipmentMapper.getEquipmentList(start_page, Constant.default_page_size);
         Pager<Equipment> equipmentPager = new Pager<>(current_page, total_record, total_page, Constant.default_page_size, equipmentList);
         return equipmentPager;
+    }
+
+    /**
+     * 获取设备list（不分页）
+     *
+     * @return
+     */
+    @Override
+    public List<Equipment> getEquipmentLists() {
+        List<Equipment> equipmentList = equipmentMapper.getEquipmentLists();
+        return equipmentList;
     }
 
     /**

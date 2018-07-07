@@ -1,4 +1,4 @@
-package com.struts.constant;
+package com.jiudao.rest.constant;
 
 /**
  * Constant

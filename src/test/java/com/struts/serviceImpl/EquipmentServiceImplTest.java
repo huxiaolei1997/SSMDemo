@@ -1,12 +1,10 @@
 package com.struts.serviceImpl;
 
-import com.struts.mapper.EquipmentMapper;
-import com.struts.service.EquipmentService;
+import com.jiudao.rest.service.EquipmentService;
+import com.jiudao.rest.serviceImpl.EquipmentServiceImpl;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import static org.junit.Assert.*;
 
 public class EquipmentServiceImplTest {
 

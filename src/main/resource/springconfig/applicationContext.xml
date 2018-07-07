@@ -16,11 +16,11 @@
 
     <context:annotation-config />
 
-    <mybatis:scan base-package="com.struts.mapper" />
+    <mybatis:scan base-package="com.jiudao.rest.mapper" />
 
-    <context:component-scan base-package="com.struts.action"></context:component-scan>
+    <context:component-scan base-package="com.jiudao.rest.action"></context:component-scan>
 
-    <context:component-scan base-package="com.struts.serviceImpl"></context:component-scan>
+    <context:component-scan base-package="com.jiudao.rest.serviceImpl"></context:component-scan>
 
     <context:property-override location="classpath*:c3p0/c3p0.properties" />
 

@@ -1,7 +1,7 @@
-package com.struts.service;
+package com.jiudao.rest.service;
 
-import com.struts.model.Equipment;
-import com.struts.model.Pager;
+import com.jiudao.rest.model.Equipment;
+import com.jiudao.rest.model.Pager;
 
 import java.util.List;
 
@@ -43,11 +43,17 @@ public interface EquipmentService {
     void updateEquipmentDesc(Equipment equipment);
 
     /**
-     * 获取设备list
+     * 获取设备分页对象（分页）
      *
      * @return
      */
     Pager<Equipment> getEquipmentList(Integer page_num);
+
+    /**
+     * 获取设备list（不分页）
+     * @return
+     */
+    List<Equipment> getEquipmentLists();
 
     /**
      * 根据id获取设备信息

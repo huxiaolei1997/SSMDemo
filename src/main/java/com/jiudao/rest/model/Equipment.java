@@ -1,4 +1,4 @@
-package com.struts.model;
+package com.jiudao.rest.model;
 
 /**
  * Equipment

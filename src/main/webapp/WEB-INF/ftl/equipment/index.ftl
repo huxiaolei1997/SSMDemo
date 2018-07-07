@@ -23,17 +23,17 @@
                 </tr>
                 </thead>
                 <tbody>
-                    <#--<#if equipmentPager ??>-->
-                         <#--<#list equipmentPager.dataList as equipment>-->
-                             <#--<tr>-->
-                                 <#--<td><input type="checkbox" class="checkbox-equipment-id" style="width: 15px;" value="${equipment.id}"></td>-->
-                                 <#--<td>${equipment.id}</td>-->
-                                 <#--<td>${equipment.code}</td>-->
-                                 <#--<td>${equipment.desc}</td>-->
-                                 <#--<td><a class="btn btn-primary" href="javascript:location.href='equipment/${equipment.id}/edit';">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-danger" href="javascript:location.href='deleteEquipmentById?equipment_id=${equipment.id}';">删除</a></td>-->
-                             <#--</tr>-->
-                         <#--</#list>-->
-                    <#--</#if>-->
+                    <#if equipmentPager ??>
+                         <#list equipmentPager.dataList as equipment>
+                             <tr>
+                                 <td><input type="checkbox" class="checkbox-equipment-id" style="width: 15px;" value="${equipment.id}"></td>
+                                 <td>${equipment.id}</td>
+                                 <td>${equipment.code}</td>
+                                 <td>${equipment.desc}</td>
+                                 <td><a class="btn btn-primary" href="javascript:location.href='equipment/${equipment.id}/edit';">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-danger" href="javascript:location.href='deleteEquipmentById?equipment_id=${equipment.id}';">删除</a></td>
+                             </tr>
+                         </#list>
+                    </#if>
                 </tbody>
             </table>
         </div>
@@ -52,8 +52,8 @@
 <script type="text/javascript">
     $(function() {
         $('.M-box').pagination({
-            <#--pageCount: ${equipmentPager.total_page},-->
-            <#--current: ${equipmentPager.current_page},-->
+            pageCount: ${equipmentPager.total_page},
+            current: ${equipmentPager.current_page},
             callback: function (api) {
                 // 当前页号
                 var current_page = api.getCurrent();
