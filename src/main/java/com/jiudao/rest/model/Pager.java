@@ -39,6 +39,10 @@ public class Pager<T> {
         this.dataList = dataList;
     }
 
+    public Pager() {
+
+    }
+
     public void setCurrent_page(int current_page) {
         this.current_page = current_page;
     }

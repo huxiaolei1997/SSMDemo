@@ -43,7 +43,7 @@
                         <%--<td><a class="btn btn-primary" href="javascript:location.href='equipment/${model.id}/edit';">编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-danger" href="javascript:location.href='deleteEquipmentById?equipment_id=${model.id}';">删除</a></td>--%>
                     <%--</tr>--%>
                 <%--</s:iterator>--%>
-                    <c:forEach items="${list}" var="model">
+                    <c:forEach items="${equipmentPager.dataList}" var="model">
                         <tr>
                             <td><input type="checkbox" class="checkbox-equipment-id" style="width: 15px;" value="${model.id}"></td>
                             <td>${model.id}</td>
@@ -60,8 +60,8 @@
         <div class="col-lg-6 col-lg-offset-3">
             <div class="m-style M-box"></div>
             <div>
-                <form id="pager" method="post" action="showEquipment?page_num=1">
-
+                <form id="pager" method="GET" action="equipment">
+                    <input type="hidden" id="current_page" name="current_page" value="1"/>
                 </form>
             </div>
         </div>
@@ -69,5 +69,21 @@
 </div>
 <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
 <script src="/SSMDemo/static/js/jquery.pagination.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('.M-box').pagination({
+            pageCount: ${equipmentPager.total_page},
+            current: ${equipmentPager.current_page},
+            callback: function (api) {
+                // 当前页号
+                var current_page = api.getCurrent();
+                $("#pager").attr("action", "equipment");
+                $("#current_page").val(current_page);
+                console.log(current_page);
+                $("#pager").submit();
+            }
+        });
+    });
+</script>
 </body>
 </html>

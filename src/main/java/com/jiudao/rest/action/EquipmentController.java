@@ -1,5 +1,6 @@
 package com.jiudao.rest.action;
 
+import com.jiudao.rest.model.Pager;
 import com.jiudao.rest.serviceImpl.EquipmentServiceImpl;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
@@ -37,10 +38,13 @@ public class EquipmentController extends ActionSupport implements ModelDriven<Eq
     // 必须实现这个属性的get方法
     private Equipment model = new Equipment();
     // 设备分页对象
-    //private Pager<Equipment> equipmentPager;
+    private Pager<Equipment> equipmentPager;
 
     // 设备list
     private List<Equipment> list;
+
+    // 页号
+    private Integer current_page;
 
     // 设备service
     @Autowired
@@ -58,6 +62,17 @@ public class EquipmentController extends ActionSupport implements ModelDriven<Eq
         return list;
     }
 
+    public Pager<Equipment> getEquipmentPager() {
+        return equipmentPager;
+    }
+
+    public Integer getCurrent_page() {
+        return current_page;
+    }
+
+    public void setCurrent_page(Integer current_page) {
+        this.current_page = current_page;
+    }
     /**
      * 设置设备ID
      */
@@ -86,8 +101,13 @@ public class EquipmentController extends ActionSupport implements ModelDriven<Eq
      */
     public HttpHeaders index() {
         //equipmentPager = equipmentService.getEquipmentList(null);
-        list = equipmentService.getEquipmentLists();
-        logger.debug("list = " + list.toString());
+//        if ("null".equals(String.valueOf(equipmentPager.getCurrent_page())) || "0".equals(String.valueOf(equipmentPager.getCurrent_page()))) {
+//            equipmentPager = equipmentService.getEquipmentList(null);
+//        } else {
+//            equipmentPager = equipmentService.getEquipmentList(equipmentPager.getCurrent_page());
+//        }
+        equipmentPager = equipmentService.getEquipmentList(current_page);
+        logger.debug("list = " + equipmentPager.toString());
         return new DefaultHttpHeaders("index").disableCaching();
     }
 

@@ -22,11 +22,11 @@
                 <div class="form-group">
                     <label>设备ID</label>
                     <input type="text" class="form-control" name="model.code"
-                           value="">
+                           value="" required>
                 </div>
                 <div class="form-group">
                     <label>设备描述</label>
-                    <textarea class="form-control" id="desc" name="model.desc"></textarea>
+                    <textarea class="form-control" id="desc" name="model.desc" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-default">提交</button>
             </form>
