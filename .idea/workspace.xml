@@ -7,72 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9069233a-b4a6-4453-ac3e-968ec29fb788" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_json_plugin_2_3_16_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jiudao/rest/action/EquipmentController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jiudao/rest/constant/Constant.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jiudao/rest/mapper/EquipmentMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jiudao/rest/model/Equipment.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jiudao/rest/model/Pager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jiudao/rest/service/EquipmentService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jiudao/rest/serviceImpl/EquipmentServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-deleteConfirm.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-edit.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-editNew.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-index.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-show.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/equipment/index.ftl" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SSMDemo_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSMDemo_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_commons_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_commons_3_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_tree_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_tree_3_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_11_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_11_0_GA.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_3_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_convention_plugin_2_3_16_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_convention_plugin_2_3_16_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_core_2_3_16_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_core_2_3_16_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_rest_plugin_2_3_16_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_rest_plugin_2_3_16_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_spring_plugin_2_3_16_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_spring_plugin_2_3_16_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_xwork_xwork_core_2_3_16_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_xwork_xwork_core_2_3_16_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_19.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_19.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/SSMDemo.iml" afterPath="$PROJECT_DIR$/SSMDemo.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/struts/action/EquipmentAction.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/struts/action/EquipmentRestAction.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/struts/action/HelloWorldAction.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/struts/constant/Constant.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/struts/mapper/EquipmentMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/struts/model/Equipment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/struts/model/Pager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/struts/service/EquipmentService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/struts/serviceImpl/EquipmentServiceImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/c3p0/c3p0.properties" afterPath="$PROJECT_DIR$/src/main/resource/c3p0/c3p0.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/equipment.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/mybatis/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resource/mybatis/mybatis-config.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/springconfig/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resource/springconfig/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/struts.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/struts.xml" afterPath="$PROJECT_DIR$/src/main/resource/struts.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/equipment-index.ftl" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/equipment-index.ftl" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/struts/mapper/EquipmentMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/struts/mapper/EquipmentMapperTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/struts/serviceImpl/EquipmentServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/struts/serviceImpl/EquipmentServiceImplTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_commons_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_commons_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_tree_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_tree_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_11_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_11_0_GA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_convention_plugin_2_3_16_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_convention_plugin_2_3_16_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_core_2_3_16_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_core_2_3_16_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_json_plugin_2_3_16_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_json_plugin_2_3_16_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_rest_plugin_2_3_16_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_rest_plugin_2_3_16_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_spring_plugin_2_3_16_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts2_spring_plugin_2_3_16_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_xwork_xwork_core_2_3_16_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_xwork_xwork_core_2_3_16_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSMDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SSMDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiudao/rest/action/EquipmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiudao/rest/action/EquipmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/c3p0/c3p0.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/c3p0/c3p0.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/struts.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,21 +51,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EquipmentController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EquipmentController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jiudao/rest/action/EquipmentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+            <state relative-caret-position="281">
+              <caret line="153" selection-start-line="153" selection-end-line="155" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1583#1584#0" expanded="true" />
-                <element signature="e#1611#1612#0" expanded="true" />
-                <element signature="e#1651#1652#0" expanded="true" />
-                <element signature="e#1678#1679#0" expanded="true" />
                 <element signature="e#1971#1972#0" expanded="true" />
                 <element signature="e#1996#1997#0" expanded="true" />
-                <element signature="e#2987#2988#0" expanded="true" />
-                <element signature="e#3040#3041#0" expanded="true" />
                 <element signature="e#3837#3838#0" expanded="true" />
                 <element signature="e#3875#3876#0" expanded="true" />
               </folding>
@@ -107,22 +67,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="updateequipment.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/updateequipment.ftl">
+      <file leaf-file-name="c3p0.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/c3p0/c3p0.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="30" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="57">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -130,9 +88,8 @@
       <file leaf-file-name="equipment-edit.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
-              <folding />
+            <state relative-caret-position="19">
+              <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -140,19 +97,8 @@
       <file leaf-file-name="equipment-editNew.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-editNew.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="equipment-deleteConfirm.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-deleteConfirm.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="76">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -160,19 +106,26 @@
       <file leaf-file-name="equipment-show.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-show.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-              <folding />
+            <state relative-caret-position="304">
+              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EquipmentMapper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="equipment-deleteConfirm.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-deleteConfirm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EquipmentMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jiudao/rest/mapper/EquipmentMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="60" column="73" lean-forward="false" selection-start-line="60" selection-start-column="73" selection-end-line="60" selection-end-column="73" />
-              <folding />
+            <state relative-caret-position="19">
+              <caret line="60" column="73" selection-start-line="60" selection-start-column="73" selection-end-line="60" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -180,9 +133,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="19">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -190,9 +142,8 @@
       <file leaf-file-name="equipment-index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="32" column="70" lean-forward="false" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
-              <folding />
+            <state relative-caret-position="494">
+              <caret line="62" column="68" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -235,6 +186,7 @@
       <find>error</find>
       <find>equipment</find>
       <find>list</find>
+      <find>There is no Action mapped</find>
     </findStrings>
     <replaceStrings>
       <replace>model</replace>
@@ -247,11 +199,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -290,13 +237,11 @@
         <option value="$PROJECT_DIR$/src/main/java/org/apache/struts2/rest/EquipmentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/struts/EquipmentAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/struts2/rest/example/EquipmentController.java" />
-        <option value="$PROJECT_DIR$/src/main/resource/c3p0/c3p0.properties" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/struts2/rest/model/Pager.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/apache/struts2/rest/action/EquipmentController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/equipment-index.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiudao/rest/service/EquipmentService.java" />
         <option value="$PROJECT_DIR$/src/main/resource/springconfig/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/struts.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiudao/rest/serviceImpl/EquipmentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-show.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-edit.jsp" />
@@ -304,9 +249,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-deleteConfirm.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jiudao/rest/action/EquipmentController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-editNew.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/jiudao/rest/mapper/EquipmentMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/c3p0/c3p0.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jiudao/rest/action/EquipmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/struts.xml" />
       </list>
     </option>
   </component>
@@ -351,23 +298,13 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -424,7 +361,72 @@
               <item name="SSMDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="c3p0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="log4j" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="springconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSMDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -451,7 +453,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,33 +507,21 @@
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat7.0.86">
     <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
-      <option name="HEIGHT" value="0" />
-      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration name="EquipmentMapperTest.getEquipmentList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+      <module name="SSMDemo" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.struts.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="SSMDemo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.struts.mapper" />
@@ -542,22 +531,20 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration name="EquipmentServiceImplTest.getEquipmentList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
+      <module name="SSMDemo" />
+      <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.struts.serviceImpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="SSMDemo" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.struts.serviceImpl" />
@@ -567,17 +554,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -587,17 +570,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -610,15 +589,12 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
@@ -639,7 +615,6 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="50293" />
       </RunnerSettings>
@@ -694,20 +669,17 @@
         </option>
       </method>
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat7.0.86" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EquipmentServiceImplTest.getEquipmentList" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EquipmentMapperTest.getEquipmentList" />
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat7.0.86" />
+      <item itemvalue="JUnit.EquipmentServiceImplTest.getEquipmentList" />
+      <item itemvalue="JUnit.EquipmentMapperTest.getEquipmentList" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EquipmentMapperTest.getEquipmentList" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EquipmentServiceImplTest.getEquipmentList" />
+      <list>
+        <item itemvalue="JUnit.EquipmentMapperTest.getEquipmentList" />
+        <item itemvalue="JUnit.EquipmentServiceImplTest.getEquipmentList" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -731,6 +703,8 @@
       <workItem from="1530880847268" duration="2258000" />
       <workItem from="1530925640110" duration="3814000" />
       <workItem from="1530932678399" duration="24233000" />
+      <workItem from="1531127870503" duration="120000" />
+      <workItem from="1531128040933" duration="2460000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1530698478103</created>
@@ -766,41 +740,45 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102356000" />
+    <option name="totallyTimeSpent" value="104936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42880523" sideWeight="0.5045386" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28805238" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27231467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42880523" sideWeight="0.49546143" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5045386" side_tool="true" weight="0.42880523" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49546143" visible="true" weight="0.23567921" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3289689" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.28805238" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="Learn" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -820,612 +798,181 @@
       </breakpoints-dialog>
       <option name="time" value="35" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/classes/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/equipment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="94" lean-forward="false" selection-start-line="65" selection-start-column="79" selection-end-line="65" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/struts.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resource/equipment.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
-          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding />
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/springconfig/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/apache-tomcat-7.0.86/lib/servlet-api.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-tomcat-7.0.86/lib/servlet-api.jar!/META-INF/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1026">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-tomcat-7.0.86/lib/servlet-api.jar!/META-INF/NOTICE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/apache-tomcat-7.0.86/lib/servlet-api.jar!/META-INF/MANIFEST.MF" />
+    <entry file="jar://D:/apache-tomcat-7.0.86/lib/servlet-api.jar!/META-INF/LICENSE" />
+    <entry file="jar://D:/apache-tomcat-7.0.86/lib/servlet-api.jar!/META-INF/NOTICE" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/equipmentlist.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
-          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="35" selection-end-column="26" />
-          <folding />
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiudao/rest/constant/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiudao/rest/service/EquipmentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiudao/rest/serviceImpl/EquipmentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/c3p0/c3p0.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="28" column="73" lean-forward="false" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
-          <folding />
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/equipment-index.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <marker date="1530926738912" expanded="false" signature="1207:1219" ph="..." />
-          </folding>
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15.jar!/ognl/ObjectMethodAccessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/ognl/accessor/XWorkMethodAccessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15.jar!/ognl/OgnlRuntime.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="2048" column="0" lean-forward="false" selection-start-line="2048" selection-start-column="0" selection-end-line="2048" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15.jar!/ognl/ObjectArrayPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15.jar!/ognl/ASTMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15.jar!/ognl/SimpleNode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15.jar!/ognl/Ognl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/ognl/OgnlUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="306" column="0" lean-forward="false" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-rest-plugin/2.5.16/struts2-rest-plugin-2.5.16.jar!/org/apache/struts2/rest/DefaultHttpHeaders.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar!/org/apache/logging/log4j/Level.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar!/org/apache/logging/log4j/simple/SimpleLogger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar!/org/apache/logging/log4j/spi/AbstractLogger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="1798" column="0" lean-forward="false" selection-start-line="1798" selection-start-column="0" selection-end-line="1798" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/interceptor/ConversionErrorInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-rest-plugin/2.5.16/struts2-rest-plugin-2.5.16.jar!/org/apache/struts2/rest/ContentTypeInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/interceptor/StaticParametersInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/org/apache/struts2/interceptor/CheckboxInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/org/apache/struts2/interceptor/FileUploadInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding>
-            <marker date="1530878305719" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1530878305719" expanded="false" signature="154:1516" ph="..." />
-            <marker date="1530878305719" expanded="true" signature="2028:2035" ph="{}" />
-            <marker date="1530878305719" expanded="false" signature="2103:2114" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="2137:2143" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="2206:2217" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="2244:2250" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="2315:2418" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="2473:2566" ph="{...}" />
-            <marker date="1530878305719" expanded="false" signature="2616:2627" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="2658:2664" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="2740:7258" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="7410:9364" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="9418:9541" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="9640:10125" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="10208:10498" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="10565:10688" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="10740:10976" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="11048:11115" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="11202:11364" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="11422:11593" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="11655:12074" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/util/profiling/UtilTimerStack.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <marker date="1530878305719" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1530878305719" expanded="false" signature="162:238" ph="..." />
-            <marker date="1530878305719" expanded="true" signature="240:258" ph="/**...*/" />
-            <marker date="1530878305719" expanded="true" signature="745:752" ph="{}" />
-            <marker date="1530878305719" expanded="true" signature="795:1167" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="1209:2020" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="2090:2156" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="2195:2382" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="2420:2431" ph=" { " />
-            <marker date="1530878305719" expanded="true" signature="2445:2451" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="2502:2710" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="2814:2992" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="3033:3082" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/interceptor/ModelDrivenInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <marker date="1530878305719" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1530878305719" expanded="false" signature="159:369" ph="..." />
-            <marker date="1530878305719" expanded="true" signature="530:537" ph="{}" />
-            <marker date="1530878305719" expanded="false" signature="595:606" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="642:648" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="724:1303" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="1386:2464" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="1546:1631" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="1714:2458" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/interceptor/ScopedModelDrivenInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <marker date="1530878305719" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1530878305719" expanded="false" signature="159:501" ph="..." />
-            <marker date="1530878305719" expanded="true" signature="863:870" ph="{}" />
-            <marker date="1530878305719" expanded="false" signature="939:950" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="979:985" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="1150:1553" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="1629:2945" ph="{...}" />
-            <marker date="1530878305719" expanded="false" signature="2993:3004" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="3031:3037" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="3075:3086" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="3103:3109" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="3149:3160" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="3179:3185" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/interceptor/MethodFilterInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <marker date="1530878305719" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1530878305719" expanded="false" signature="159:387" ph="..." />
-            <marker date="1530878305719" expanded="true" signature="728:735" ph="{}" />
-            <marker date="1530878305719" expanded="true" signature="794:888" ph="{...}" />
-            <marker date="1530878305719" expanded="false" signature="935:946" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="973:979" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="1038:1132" ph="{...}" />
-            <marker date="1530878305719" expanded="false" signature="1179:1190" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="1217:1223" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="1299:1409" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="1479:1826" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/interceptor/ParametersInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding>
-            <marker date="1530878305719" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1530878305719" expanded="false" signature="159:1302" ph="..." />
-            <marker date="1530878305719" expanded="false" signature="1846:1923" ph="compare(s1, s2) → {" />
-            <marker date="1530878305719" expanded="false" signature="2132:2143" ph="}" />
-            <marker date="1530878305719" expanded="true" signature="2181:2188" ph="{}" />
-            <marker date="1530878305719" expanded="true" signature="2276:2335" ph="{...}" />
-            <marker date="1530878305719" expanded="false" signature="2399:2410" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="2454:2460" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="2552:2609" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="2701:2758" ph="{...}" />
-            <marker date="1530878305719" expanded="false" signature="2821:2832" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="2877:2883" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="2938:3166" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="3244:4495" ph="{...}" />
-            <marker date="1530878305719" expanded="false" signature="4562:4573" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="4599:4605" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="4693:4700" ph="{}" />
-            <marker date="1530878305719" expanded="true" signature="4795:7668" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="7771:8460" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="8534:8789" ph="{...}" />
-            <marker date="1530878305719" expanded="false" signature="8846:8857" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="8875:8881" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="8950:9531" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="9583:9868" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="9925:10195" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="10248:10558" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="10611:10916" ph="{...}" />
-            <marker date="1530878305719" expanded="false" signature="10948:10959" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="10979:10985" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="11030:11041" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="11064:11070" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="11126:11137" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="11191:11197" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="11250:11261" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="11315:11321" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-rest-plugin/2.5.16/struts2-rest-plugin-2.5.16.jar!/org/apache/struts2/rest/RestActionInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <marker date="1530878304880" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1530878304880" expanded="false" signature="147:1111" ph="..." />
-            <marker date="1530878304880" expanded="true" signature="1677:1725" ph="{...}" />
-            <marker date="1530878304880" expanded="false" signature="1801:1812" ph=" { " />
-            <marker date="1530878304880" expanded="false" signature="1857:1863" ph=" }" />
-            <marker date="1530878304880" expanded="true" signature="1988:2057" ph="{...}" />
-            <marker date="1530878304880" expanded="true" signature="2063:2155" ph="@{...}" />
-            <marker date="1530878304880" expanded="false" signature="2210:2221" ph=" { " />
-            <marker date="1530878304880" expanded="false" signature="2280:2286" ph=" }" />
-            <marker date="1530878304880" expanded="false" signature="2378:2389" ph=" { " />
-            <marker date="1530878304880" expanded="false" signature="2421:2427" ph=" }" />
-            <marker date="1530878304880" expanded="true" signature="2509:3202" ph="{...}" />
-            <marker date="1530878304880" expanded="true" signature="3248:4371" ph="{...}" />
-            <marker date="1530878304880" expanded="true" signature="4425:5365" ph="{...}" />
-            <marker date="1530878304880" expanded="true" signature="5417:6285" ph="{...}" />
-            <marker date="1530878304880" expanded="true" signature="6331:6572" ph="{...}" />
-            <marker date="1530878304880" expanded="true" signature="6621:7926" ph="{...}" />
-            <marker date="1530878304880" expanded="true" signature="7962:9035" ph="{...}" />
-            <marker date="1530878304880" expanded="true" signature="9079:9214" ph="{...}" />
-            <marker date="1530878304880" expanded="true" signature="9279:9438" ph="{...}" />
-            <marker date="1530878304880" expanded="true" signature="9497:10647" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/org/apache/struts2/interceptor/ProfilingActivationInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <marker date="1530878305719" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1530878305719" expanded="false" signature="154:461" ph="..." />
-            <marker date="1530878305719" expanded="true" signature="658:665" ph="{}" />
-            <marker date="1530878305719" expanded="false" signature="702:713" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="738:744" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="798:809" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="842:848" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="919:930" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="974:980" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="1056:1541" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_121/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="381" column="29" lean-forward="false" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-          <folding>
-            <marker date="1530878305719" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1530878305719" expanded="false" signature="147:1206" ph="..." />
-            <marker date="1530878305719" expanded="true" signature="2267:2354" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="2454:2521" ph="{...}" />
-            <marker date="1530878305719" expanded="false" signature="2594:2605" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="2634:2640" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="2705:2716" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="2741:2747" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="2805:2816" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="2838:2844" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="2850:2889" ph="@{...}" />
-            <marker date="1530878305719" expanded="false" signature="2958:2969" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="3005:3011" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="3071:3082" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="3107:3113" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="3144:3155" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="3174:3180" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="3213:3224" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="3245:3251" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="3300:3311" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="3341:3347" ph=" }" />
-            <marker date="1530878305719" expanded="false" signature="3382:3393" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="3411:3417" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="3466:4002" ph="{...}" />
-            <marker date="1530878305719" expanded="false" signature="4037:4048" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="4071:4077" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="4128:4319" ph="{...}" />
-            <marker date="1530878305719" expanded="false" signature="4353:4364" ph=" { " />
-            <marker date="1530878305719" expanded="false" signature="4382:4388" ph=" }" />
-            <marker date="1530878305719" expanded="true" signature="4455:4623" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="4675:6259" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="6305:8608" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="8664:8747" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="8813:10671" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="10726:11658" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="11710:12580" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="12622:13310" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="13379:13509" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="13568:13734" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="13829:15958" ph="{...}" />
-            <marker date="1530878305719" expanded="true" signature="16040:16298" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15.jar!/ognl/ObjectMethodAccessor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/ognl/accessor/XWorkMethodAccessor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15.jar!/ognl/OgnlRuntime.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15.jar!/ognl/ObjectArrayPool.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15.jar!/ognl/ASTMethod.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15.jar!/ognl/SimpleNode.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/ognl/ognl/3.1.15/ognl-3.1.15.jar!/ognl/Ognl.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/ognl/OgnlUtil.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-rest-plugin/2.5.16/struts2-rest-plugin-2.5.16.jar!/org/apache/struts2/rest/DefaultHttpHeaders.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar!/org/apache/logging/log4j/Level.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar!/org/apache/logging/log4j/simple/SimpleLogger.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar!/org/apache/logging/log4j/spi/AbstractLogger.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/interceptor/ConversionErrorInterceptor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-rest-plugin/2.5.16/struts2-rest-plugin-2.5.16.jar!/org/apache/struts2/rest/ContentTypeInterceptor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/interceptor/StaticParametersInterceptor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/org/apache/struts2/interceptor/CheckboxInterceptor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/org/apache/struts2/interceptor/FileUploadInterceptor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/util/profiling/UtilTimerStack.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/interceptor/ModelDrivenInterceptor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/interceptor/ScopedModelDrivenInterceptor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/interceptor/MethodFilterInterceptor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/interceptor/ParametersInterceptor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-rest-plugin/2.5.16/struts2-rest-plugin-2.5.16.jar!/org/apache/struts2/rest/RestActionInvocation.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/org/apache/struts2/interceptor/ProfilingActivationInterceptor.class" />
+    <entry file="jar://D:/Java/jdk1.8.0_121/src.zip!/java/lang/Object.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts2-core/2.5.16/struts2-core-2.5.16.jar!/com/opensymphony/xwork2/DefaultActionInvocation.class" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/equipment-edit.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+        <state relative-caret-position="-627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/updateequipment.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="30" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-show.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="64" lean-forward="false" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-          <folding />
+          <caret line="2" selection-start-line="2" selection-end-line="30" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="34" column="42" lean-forward="false" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="646">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-deleteConfirm.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resource/c3p0/c3p0.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="57">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-index.jsp">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="32" column="70" lean-forward="false" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
-          <folding />
+        <state relative-caret-position="19">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-edit.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="23" column="72" lean-forward="false" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiudao/rest/action/EquipmentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#1678#1679#0" expanded="true" />
-            <element signature="e#1971#1972#0" expanded="true" />
-            <element signature="e#1996#1997#0" expanded="true" />
-            <element signature="e#2987#2988#0" expanded="true" />
-            <element signature="e#3040#3041#0" expanded="true" />
-            <element signature="e#3837#3838#0" expanded="true" />
-            <element signature="e#3875#3876#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="19">
+          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-editNew.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="76">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-deleteConfirm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/content/equipment-index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="62" column="68" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jiudao/rest/mapper/EquipmentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="60" column="73" lean-forward="false" selection-start-line="60" selection-start-column="73" selection-end-line="60" selection-end-column="73" />
-          <folding />
+        <state relative-caret-position="19">
+          <caret line="60" column="73" selection-start-line="60" selection-start-column="73" selection-end-line="60" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jiudao/rest/action/EquipmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="153" selection-start-line="153" selection-end-line="155" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1971#1972#0" expanded="true" />
+            <element signature="e#1996#1997#0" expanded="true" />
+            <element signature="e#3837#3838#0" expanded="true" />
+            <element signature="e#3875#3876#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -19,10 +19,16 @@
 
     <!--&lt;!&ndash; 自定义 ftl 文件命名的分隔符 &ndash;&gt;-->
     <!--<constant name="struts.convention.action.name.separator" value="-" />-->
+    <!--<constant name="struts.action.extension" value="xhtml,,xml,json,action"/>-->
+    <!--<constant name="struts.mapper.class" value="org.apache.struts2.dispatcher.mapper.PrefixBasedActionMapper" />-->
+    <!--<constant name="struts.mapper.prefixMapping" value="/rest:rest,:struts"/>-->
+    <!--<constant name="struts.actionProxyFactory" value="prefix"/>-->
 
     <constant name="struts.convention.action.suffix" value="Controller"/>
+
     <!-- 设置没有action注解依然创建action映射-->
     <constant name="struts.convention.action.mapAllMatches" value="true"/>
+
     <!-- 使用struts-default默认的转换器，如果是rest的使用：rest-default，rest需要rest的jar插件 -->
     <constant name="struts.convention.default.parent.package" value="rest-default"/>
 

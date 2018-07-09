@@ -160,4 +160,6 @@ public class EquipmentController extends ActionSupport implements ModelDriven<Eq
     public String deleteConfirm() {
         return "deleteConfirm";
     }
+
+    //
 }
