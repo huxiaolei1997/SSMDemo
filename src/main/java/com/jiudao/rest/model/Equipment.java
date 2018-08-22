@@ -1,5 +1,7 @@
 package com.jiudao.rest.model;
 
+import java.io.Serializable;
+
 /**
  * Equipment
  *
@@ -9,7 +11,8 @@ package com.jiudao.rest.model;
  *
  * @email huxiaolei1997@gmail.com
  */
-public class Equipment {
+public class Equipment implements Serializable {
+    private static final long serialVersionUID = 604055099486781496L;
     private int id;
     private int code;
     private String desc;

@@ -7,6 +7,7 @@
 <struts>
     <!-- 让spring来创建action，管理还是由 struts2 来管理 -->
     <constant name="struts.objectFactory" value="spring"></constant>
+    <constant name="struts.objectFactory.spring.autoWire.alwaysRespect" value="true"/>
 
     <!-- 不拦截静态资源 -->
     <constant name="struts.action.excludePattern" value="/static/.*?" />
@@ -26,12 +27,15 @@
 
     <constant name="struts.convention.action.suffix" value="Controller"/>
 
+    <!-- 告诉 convention 插件去扫描指定的根包-->
+    <constant name="struts.convention.action.packages" value="com.jiudao.rest.action"/>
+
     <!-- 设置没有action注解依然创建action映射-->
     <constant name="struts.convention.action.mapAllMatches" value="true"/>
 
     <!-- 使用struts-default默认的转换器，如果是rest的使用：rest-default，rest需要rest的jar插件 -->
     <constant name="struts.convention.default.parent.package" value="rest-default"/>
 
-    <constant name="struts.convention.package.locators" value="action" />
+    <!--<constant name="struts.convention.package.locators" value="action" />-->
 
 </struts>

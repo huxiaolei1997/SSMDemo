@@ -11,6 +11,7 @@ import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
 import org.apache.struts2.rest.DefaultHttpHeaders;
 import org.apache.struts2.rest.HttpHeaders;
+import org.apache.struts2.rest.RestActionSupport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
@@ -26,12 +27,12 @@ import java.util.List;
  *
  * @copyright huxiaolei1997@gmail.com
  */
-@Results(@Result(name="success"
-        , type="redirectAction"
-        , params = {"actionName" , "equipment"}))
-@Controller
-@Scope("prototype")
-public class EquipmentController extends ActionSupport implements ModelDriven<Equipment> {
+//@Results(@Result(name="success"
+//        , type="redirectAction"
+//        , params = {"actionName" , "equipment"}))
+//@Controller
+//@Scope("singleton")
+public class EquipmentController extends RestActionSupport implements ModelDriven<Equipment> {
     // Rest URL请求的 ID 值
     private int id;
     // 设备实体（这里的实例名必须是 model ，不然getModel()这个方法会取不到 model 的值），如果要在页面上访问实体类的属性，则
@@ -128,8 +129,9 @@ public class EquipmentController extends ActionSupport implements ModelDriven<Eq
      * @return
      */
     public HttpHeaders create() {
+        logger.info("EquipmentController = " + this.hashCode() + "EquipmentService = " + equipmentService.hashCode());
         equipmentService.addEquipment(model);
-        return new DefaultHttpHeaders("success").setLocationId(model.getId());
+        return new DefaultHttpHeaders(SUCCESS).setLocationId(model.getId());
     }
 
     /**
@@ -139,7 +141,7 @@ public class EquipmentController extends ActionSupport implements ModelDriven<Eq
      * @return
      */
     public HttpHeaders show() {
-        return new DefaultHttpHeaders("show");
+        return new DefaultHttpHeaders("success").setLocationId(model.getId());
     }
 
     /**
@@ -158,10 +160,11 @@ public class EquipmentController extends ActionSupport implements ModelDriven<Eq
      * 返回 equipment-index.jsp
      * @return
      */
-    public String update() {
+    public HttpHeaders update() {
         equipmentService.updateEquipmentDesc(model);
         //addActionMessage("update equipment successed.");
-        return "success";
+//        return "success";
+        return new DefaultHttpHeaders("success").setLocationId(model.getId());
     }
 
     /**
@@ -173,7 +176,7 @@ public class EquipmentController extends ActionSupport implements ModelDriven<Eq
     public String destroy() {
         equipmentService.deleteEquipmentById(id);
         //addActionMessage("delete equipment successed.");
-        return "success";
+            return "success";
     }
 
     // GET /equipment/1/deleteConfirm

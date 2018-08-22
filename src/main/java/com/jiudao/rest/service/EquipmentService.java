@@ -7,10 +7,11 @@ import java.util.List;
 
 /**
  * EquipmentService
- * <p>
+ *
  * version 1.0
  *
  * @create 2018-07-04 13:18
+ *
  * @copyright huxiaolei1997@gmail.com
  */
 public interface EquipmentService {

@@ -1,17 +1,20 @@
 package com.jiudao.rest.model;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * Pager
- *
+ * <p>
  * version 1.0
  *
  * @create 2018-07-05 12:10
- *
  * @copyright huxiaolei1997@gmail.com
  */
-public class Pager<T> {
+public class Pager<T> implements Serializable {
+
+    private static final long serialVersionUID = 3102328258351563090L;
+
     // 当前所在页号
     private int current_page;
 
